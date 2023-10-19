@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+#smile{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+}
+
+#add{
+    position: relative;
+}
+
+#pass{
+    position: relative;
+}
+.icon{
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+
+/* input{
+    display: block;
+    margin-top: 10px;
+    width: 90%;
+    padding-left: 25px;
+} */
+/* label,input,a{
+    display: block;
+    margin-top: 10px;
+} */
+
+#submain{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: chartreuse;
+}
+
+form{
+    background-color: white;
+    width: 25%;
+    height: 90%;
+    border-radius: 5px;
+    /* inside border you want togive gap then use padding */
+    padding: 30px;
+    color: black;
+}
+
+label{
+    font-size: 20px;
+}
+
+.box{
+    width: 90%;
+    height: 40px;
+    /* border: none; */
+    border-radius: 5px;
+    padding-left: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    color: blue;  
+}
+
+/* #new{
+    text-align: center;
+} */
+/* #but{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+#submain1{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color:goldenrod;
+    color: black;
+    font-size: 15px;
+    
+}
+
+
+
+h1,h4{
+    display: flex;
+    justify-content: center;
+    word-spacing: 5px;
+}
+
+#msg{
+    color: deeppink;
+    letter-spacing: 5px;
+}
+
